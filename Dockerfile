@@ -9,4 +9,4 @@ ENV N8N_HOST=0.0.0.0
 
 EXPOSE 10000
 
-CMD ["n8n"]
+ENTRYPOINT ["n8n"]
